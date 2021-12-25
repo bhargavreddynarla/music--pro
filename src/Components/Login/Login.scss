@@ -1,0 +1,57 @@
+.login--Credentials {
+  position: absolute;
+  top: 0;
+  left: 30rem;
+  width: 100%;
+  height: 40vh;
+  background-color: □rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .login--Credentials--Form {
+    position: relative;
+    padding: 60px;
+    width: 100%;
+    max-width: 640px;
+    height: 40vh;
+    background-color: #66e3c4;
+    cursor: pointer;
+  }
+  .login--Credentials--Closeicon {
+    position: absolute;
+    top: 10px;
+    left: 24rem;
+  }
+
+  .login--Credentials--Email {
+    height: 2rem;
+    width: 300px;
+  }
+  .login--Credentials--Email:focus {
+    outline: none;
+  }
+  .login--Credentials--Password {
+    height: 2rem;
+    width: 300px;
+    margin-top: 1rem;
+  }
+  .login--Credentials--Password:focus {
+    outline: none;
+  }
+
+  .login--Credentials--Submitbtn {
+    margin-top: 1rem;
+    width: 100px;
+    text-transform: capitalize;
+  }
+  .login--Credentials--Createbtn {
+    display: block;
+    margin-top: 1rem;
+    background: #626cb4;
+  }
+  .login--Credentials--Createbtn:hover {
+    background: hotpink;
+  }
+}
